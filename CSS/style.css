@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap');
+
+
+
+body {
+    font-family: 'Golos Text', sans-serif;
+    position: fixed;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.background {
+    
+    background: url("../Imgs/image.jpg") no-repeat;
+    margin: 0px;
+    box-sizing: border-box;
+    position: fixed;
+    background-size: cover;
+    flex-direction: column;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    user-select: none;
+    /* filter: blur(2px);
+  -webkit-filter: blur(2px); */
+}
+
+#frontBox {
+    position: absolute;
+    gap: 15%;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0%;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+}
+
+
+.dateAndtime {
+    display: flex;
+    flex-direction: column;
+    top: 5%;
+    align-items:center;
+    text-align: center;
+   /* padding-top: 4%; */
+   /* border-bottom: solid white ; */
+   padding-bottom: 1%;
+   width: 45%;
+   position: absolute;
+    
+}
+
+#dateDisplay {
+    display: flex;
+    color: white;
+  font-size: 1.3em;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-family: 'Golos Text', sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+#timeDisplay {
+    display: flex;
+    
+    color: white;
+  font-size: 1.3em;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-family: 'Golos Text', sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+
+
+#quoteBox {
+    color: white;
+    text-align: justify;
+    height: 60%;
+    width: 60%;
+    top: 30%;    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10%;
+    
+    /* justify-content: space-between; */
+}
+
+#title {
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 2%;
+    /* position: absolute; */
+    /* padding-bottom: 18%; */
+
+
+}
+
+#quoteText {
+    font-size: 1.5rem;
+    text-align: center;
+    height: 10%;
+    /* padding-bottom: 15%; */
+    /* padding: 0% 0% 20% 0%; */
+
+}
+
+.btnBox {
+ 
+  background: #f1960c;
+  border-radius: 1500px;
+  box-shadow: #f1960c 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  width: fit-content;
+  height: 50px;
+
+    /* font-family: 'Golos Text', sans-serif; */
+    
+
+    /* padding-bottom: 5%; */
+
+}
+
+#font {
+    font-family: 'Golos Text', sans-serif;
+    
+}
+
